@@ -1,0 +1,51 @@
+body{
+    
+     background-size:cover;
+    font-family: "cambria", sans-serif;
+}
+
+.container{
+    width: 10%
+        margin: 0 auto;
+}
+
+head::after{
+    content"";
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float:left;
+    padding: 10px 0;
+}
+
+nav{
+    float:none;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+        
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    
+    position: relative;
+}
+
+nav a{
+    color: orange;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: aqua;
+    
+}
